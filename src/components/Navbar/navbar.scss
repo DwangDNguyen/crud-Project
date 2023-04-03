@@ -1,0 +1,25 @@
+.navbar {
+    padding: 20px 74px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .right {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+        .btn {
+            width: 164px;
+            height: 42px;
+            background-color: #e97a28;
+            border-radius: 2px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            color: var(--clr-white);
+            cursor: pointer;
+            font-weight: bold;
+        }
+    }
+}

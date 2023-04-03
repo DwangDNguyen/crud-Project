@@ -1,0 +1,90 @@
+.register {
+    .register-container {
+        background-color: #f9fafb;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        min-height: 88vh;
+
+        .register-form {
+            background-color: var(--clr-white);
+            padding: 20px;
+            min-width: 420px;
+            margin: auto;
+            & form {
+                margin-top: 30px;
+            }
+            & h1 {
+                font-size: 20px;
+            }
+            .form-input {
+                display: flex;
+                flex-direction: column;
+                margin-top: 10px;
+                .input {
+                    border: 1px solid #d1d5db;
+                    padding: 8px 16px;
+                    &:hover {
+                        border: 1px solid #000;
+                    }
+                }
+                .error {
+                    font-size: 12px;
+                    color: red;
+                    margin-top: 5px;
+                }
+            }
+            .password-input {
+                position: relative;
+
+                .ic {
+                    position: absolute;
+                    right: 10px;
+                    top: 50%;
+                    color: #d1d5db;
+                    cursor: pointer;
+                }
+            }
+            .register-submit {
+                width: 100%;
+                padding: 0 32px;
+                margin-top: 20px;
+                min-height: 48px;
+                background: #e97a28;
+                color: var(--clr-white);
+                font-weight: bold;
+                font-size: 16px;
+                cursor: pointer;
+            }
+            .redirect-login {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 10px;
+
+                .login-text {
+                    margin-left: 10px;
+                    color: #e97a28;
+                }
+            }
+            .cancel-text {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0 32px;
+                margin-top: 10px;
+                min-height: 48px;
+                border: 1px solid #d1d5db;
+            }
+            .success {
+                width: 100%;
+                background-color: var(--clr-green-dark);
+                color: var(--clr-white);
+                padding: 5px 15px;
+                margin-top: 10px;
+            }
+        }
+    }
+}

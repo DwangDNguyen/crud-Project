@@ -1,0 +1,29 @@
+.detail {
+    .detail-container {
+        background-color: #f9fafb;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        min-height: 88vh;
+
+        .user-detail {
+            background-color: var(--clr-white);
+            padding: 20px;
+            min-width: 420px;
+            margin: auto;
+
+            & h1 {
+                margin-bottom: 20px;
+            }
+
+            .user-info {
+                padding: 10px 0;
+
+                & span {
+                    font-weight: bold;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
